@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
+<head>
+    <script src="Plugins/URLHelper.js"></script>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity Web Player | FortuneWheel</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="manifest" href="manifest.webmanifest">
-  </head>
+</head>
   <body>
     <div id="unity-container">
       <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
@@ -19,6 +20,7 @@
       </div>
       <div id="unity-warning"> </div>
     </div>
+
     <script>
       window.addEventListener("load", function () {
         if ("serviceWorker" in navigator) {
