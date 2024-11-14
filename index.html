@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
-    <script src="Plugins/URLHelper.js"></script>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity Web Player | FortuneWheel</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="manifest" href="manifest.webmanifest">
-</head>
+  </head>
   <body>
     <div id="unity-container">
       <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
@@ -20,7 +19,6 @@
       </div>
       <div id="unity-warning"> </div>
     </div>
-
     <script>
       window.addEventListener("load", function () {
         if ("serviceWorker" in navigator) {
@@ -59,12 +57,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/WebCalls.loader.js";
+      var loaderUrl = buildUrl + "/TokenTest.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/WebCalls.data.unityweb",
-        frameworkUrl: buildUrl + "/WebCalls.framework.js.unityweb",
-        codeUrl: buildUrl + "/WebCalls.wasm.unityweb",
+        dataUrl: buildUrl + "/TokenTest.data.unityweb",
+        frameworkUrl: buildUrl + "/TokenTest.framework.js.unityweb",
+        codeUrl: buildUrl + "/TokenTest.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Denis",
         productName: "FortuneWheel",

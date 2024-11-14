@@ -1,9 +1,9 @@
 const cacheName = "Denis-FortuneWheel-1.0.2";
 const contentToCache = [
-    "Build/WebCalls.loader.js",
-    "Build/WebCalls.framework.js.unityweb",
-    "Build/WebCalls.data.unityweb",
-    "Build/WebCalls.wasm.unityweb",
+    "Build/TokenTest.loader.js",
+    "Build/TokenTest.framework.js.unityweb",
+    "Build/TokenTest.data.unityweb",
+    "Build/TokenTest.wasm.unityweb",
     "TemplateData/style.css"
 
 ];
