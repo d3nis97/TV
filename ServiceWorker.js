@@ -1,4 +1,4 @@
-const cacheName = "Denis-CatFuckts!-1.0";
+const cacheName = "Denis-FortuneWheel-1.0.2";
 const contentToCache = [
     "Build/TokenTest.loader.js",
     "Build/TokenTest.framework.js.unityweb",
