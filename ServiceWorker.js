@@ -1,9 +1,9 @@
 const cacheName = "Denis-CatFuckts!-1.0";
 const contentToCache = [
-    "Build/Brotli.loader.js",
-    "Build/Brotli.framework.js.unityweb",
-    "Build/Brotli.data.unityweb",
-    "Build/Brotli.wasm.unityweb",
+    "Build/TokenTest.loader.js",
+    "Build/TokenTest.framework.js.unityweb",
+    "Build/TokenTest.data.unityweb",
+    "Build/TokenTest.wasm.unityweb",
     "TemplateData/style.css"
 
 ];
